@@ -2,21 +2,21 @@
 
 Only for those who only want to remember a sentence or long string instead of a private key.
 
-Could be useful if you're at risk for losing all your tangible possessions.
+Could be useful if you're at risk of losing all your tangible possessions.
 
 > `passphrase` is case sensitive
 
 ### Usage
 
-Not an npm package.json coz betting you rarely need this:
+Not an npm package coz betting you rarely need this:
 
-```
-> git clone 
+```sh
+> git clone git@github.com:mohamedhayibor/eth-passphrase-exp.git && cd eth-passphrase-exp
 
 > npm i
 ```
 
-In node console:
+Get private key in node console:
 
 ```
 > const eth-passphrase = require('./');
