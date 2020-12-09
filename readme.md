@@ -19,9 +19,9 @@ Not an npm package coz betting you rarely need this:
 Get private key in node console:
 
 ```
-> const eth-passphrase = require('./');
+> const genPrivKey = require('./');
 
-> eth-passphrase("whatever case sensitive passphrase...") // 1454....36da3d
+> genPrivKey("whatever case sensitive passphrase...") // 1454....36da3d
 ```
 
 ## How
